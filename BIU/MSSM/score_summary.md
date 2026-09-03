@@ -1,6 +1,6 @@
 ## 📊 Évaluation automatique du TD
 
-### 🔴 Note : **26.0/100** (5.2/20) — Insuffisant
+### 🔴 Note : **30.0/100** (6.0/20) — Insuffisant
 
 - **Tests réussis** : 0/30
 - **Points** : 0/100
@@ -51,10 +51,10 @@
 
 ### 🔒 Analyse d'intégrité
 
-- **Score d'intégrité** : 65/100
-- **Verdict** : ⚠️ Travail partiellement authentique — soutenance recommandée
+- **Score d'intégrité** : 75/100
+- **Verdict** : ✅ Travail vraisemblablement authentique
 
-- Historique git : 2 commits, 2 jour(s) distinct(s) (25/40 pts)
+- Historique git : 3 commits, 3 jour(s) distinct(s) (35/40 pts)
 - Cellules de réflexion métier : 2/5 (10/30 pts)
 - Originalité du code : 0% de similarité avec le corrigé (30/30 pts)
 
