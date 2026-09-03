@@ -1,0 +1,40 @@
+﻿name: Auto-Grade and Email Results
+
+on:
+  push:
+    branches: [ main, master, 'student-*' ]
+    paths:
+      - 'BIU/MSSM/td_exercices/TD_Exercices.ipynb'
+
+jobs:
+  grade-and-email:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy pandas nbformat jupyter-core ipython matplotlib seaborn scikit-learn
+
+      - name: Run grading script
+        env:
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          STUDENTS_FILE: scripts/students.csv
+          NOTEBOOK_PATH: BIU/MSSM/td_exercices/TD_Exercices.ipynb
+        run: |
+          python scripts/grade_notebook.py
