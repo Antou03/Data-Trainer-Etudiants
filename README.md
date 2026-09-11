@@ -22,11 +22,11 @@ git clone https://github.com/JhpAb/Data-Trainer-Etudiants.git
 cd Data-Trainer-Etudiants
 ```
 
-### 2. Aller dans votre établissement / programme
+### 2. Aller dans votre programme
 
 ```bash
-# Exemple : étudiant Bootcamp — Strategic Sales & Marketing / SSM
-cd Cohort1/SSM
+# Exemple : Bootcamp — Cohort1 | Marketing Analytics / MSSM
+cd BIU/MSSM
 ```
 
 ### 3. Installer les dépendances
@@ -53,7 +53,7 @@ Ouvrez le notebook du cours (`cours/`) ou le TD (`td_exercices/`) et suivez les 
 ```
 Data-Trainer-Etudiants/
 ├── README.md                    ← Ce fichier (sommaire général)
-├── Cohort1/                         ← Bootcamp — Cohort1
+├── BIU/                         ← Bootcamp — Cohort1
 │   └── MSSM/                    ← Master Strategic Sales & Marketing
 │       ├── cours/               ← Support de cours (notebooks)
 │       ├── td_exercices/        ← TD à compléter (sans corrigés)
