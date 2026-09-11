@@ -1,15 +1,15 @@
 # Data-Trainer — Espace Étudiant
 
-Dépôt public contenant les **supports de cours, TD et datasets** pour les formations en Data Science, Marketing Analytics et Finance dispensées dans plusieurs établissements.
+Dépôt public contenant les **supports de cours, TD et datasets** pour les formations en Data Science, Marketing Analytics et Finance.
 
 ---
 
-## 🏫 Établissements et programmes disponibles
+## 🏫 Programmes disponibles
 
-| Établissement | Programme | Module | Niveau | Statut |
-|---------------|-----------|--------|--------|--------|
-| **BIU** (British International University) | MSSM — Master Strategic Sales & Marketing | Marketing Analytics | Master 2 | ✅ Disponible |
-| _Autres établissements à venir_ | | | | 🚧 |
+| Programme | Module | Niveau | Statut |
+|-----------|--------|--------|--------|
+| Bootcamp — Cohort1 | Marketing Analytics | None | ✅ Disponible |
+| _Bootcamp à venir_ | | | | 🚧 |
 
 ---
 
@@ -25,8 +25,8 @@ cd Data-Trainer-Etudiants
 ### 2. Aller dans votre établissement / programme
 
 ```bash
-# Exemple : étudiant BIU / MSSM
-cd BIU/MSSM
+# Exemple : étudiant Bootcamp — Strategic Sales & Marketing / SSM
+cd Cohort1/SSM
 ```
 
 ### 3. Installer les dépendances
@@ -53,7 +53,7 @@ Ouvrez le notebook du cours (`cours/`) ou le TD (`td_exercices/`) et suivez les 
 ```
 Data-Trainer-Etudiants/
 ├── README.md                    ← Ce fichier (sommaire général)
-├── BIU/                         ← British International University
+├── Cohort1/                         ← Bootcamp — Cohort1
 │   └── MSSM/                    ← Master Strategic Sales & Marketing
 │       ├── cours/               ← Support de cours (notebooks)
 │       ├── td_exercices/        ← TD à compléter (sans corrigés)
