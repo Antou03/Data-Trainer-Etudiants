@@ -76,6 +76,6 @@ Ce dépôt est **public** et ne contient **aucun corrigé**. Les corrigés sont 
 
 ## ❓ Besoin d'aide ?
 
-- Consultez le `README.md` de votre établissement (ex. `BIU/MSSM/README.md`).
+- Consultez le `README.md` de votre programme (ex. `BIU/MSSM/README.md`).
 - Consultez `docs/dictionnaire_donnees.md` pour comprendre les variables.
 - Relisez la section correspondante du cours dans `cours/`.
