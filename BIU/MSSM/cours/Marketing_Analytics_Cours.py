@@ -17,7 +17,7 @@
 #
 # **British International University (BIU)** — Master in Strategic Sales and Marketing (MSSM)
 # **Module :** Marketing Analytics · **Volume :** 36 h (16 h cours + 20 h TP) · **ECTS :** 6
-# **Enseignant :** [Nom du candidat] — Data Scientist (Finance / Assurance / AML Analytics)
+# **Enseignant :** Jean Pierre ABBE — Ingénieur Statisticien, Data Scientist (Finance / Assurance / AML Analytics)
 #
 # > Ce notebook constitue le **support de cours complet et exécutable** du module. Il suit l'organisation hebdomadaire du syllabus (S1 → S14). Toutes les données sont **100 % synthétiques** (retailer/e-commerce ivoirien fictif « IvoireMarket ») et **reproductibles** (`random_state=42`).
 #
